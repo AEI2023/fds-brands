@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example using WebComponent</title>
+    <style>
+        /* Alineado vertical y horizontal */
+        html {
+            background:#0f0f0f;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        body {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .contenedor {
+            width: 90%;
+            height: 150px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        @media(max-width:992px) {
+            .contenedor { width: 80%;}
+        }
+
+    </style>
+</head>
+  
+<body>
+  <div class="contenedor">
+    <fds-brands speed="120s" heightimg="150px">
+        <div class="brands">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" alt="Google" />   
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt="Firefox" />   
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" alt="Don Web" />   
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" alt="Almacen Natural" />   
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" alt="Onus" />   
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" alt="UAUA Media" />   
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" alt="Trello" />   
+        </div>     
+      </fds-brands> 
+</div>     
+    <script src="brand-carousel.js" type="module"></script>
+</body>
+</html>
