@@ -31,4 +31,4 @@ Brands Carousel only Css using Web Component.
 </fds-brands>
 ```
 
-**Preview** [Here](https://aei2023.github.io/fds-carousel/)
+**Preview** [Here](https://aei2023.github.io/fds-brands/)
